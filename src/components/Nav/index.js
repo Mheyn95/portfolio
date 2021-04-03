@@ -1,7 +1,12 @@
 import React from "react";
 
 function Nav(props) {
-  const { contactSelected, portfolioSelected, setUserRequest } = props;
+  const {
+    contactSelected,
+    portfolioSelected,
+    resumeSelected,
+    setUserRequest,
+  } = props;
 
   return (
     <header className="flex-row px-1">
@@ -20,6 +25,7 @@ function Nav(props) {
                 setUserRequest({
                   contactSelected: false,
                   portfolioSelected: false,
+                  resumeSelected: false,
                 })
               }
             >
@@ -33,6 +39,7 @@ function Nav(props) {
                   setUserRequest({
                     contactSelected: true,
                     portfolioSelected: false,
+                    resumeSelected: false,
                   })
                 }
               >
@@ -47,10 +54,26 @@ function Nav(props) {
                   setUserRequest({
                     contactSelected: false,
                     portfolioSelected: true,
+                    resumeSelected: false,
                   })
                 }
               >
                 My Work
+              </span>
+            </a>
+          </li>
+          <li className={`mx-2 ${resumeSelected && "navActive"}`}>
+            <a data-testid="resume" href="#resume">
+              <span
+                onClick={() =>
+                  setUserRequest({
+                    contactSelected: false,
+                    portfolioSelected: false,
+                    resumeSelected: true,
+                  })
+                }
+              >
+                Resume
               </span>
             </a>
           </li>

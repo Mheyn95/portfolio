@@ -3,11 +3,14 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [userRequest, setUserRequest] = useState({
     contactSelected: false,
     portfolioSelected: false,
+    resumeSelected: false,
   });
   return (
     <div>
@@ -15,15 +18,20 @@ function App() {
       <main>
         {!userRequest.contactSelected ? (
           !userRequest.portfolioSelected ? (
-            <>
-              <About></About>
-            </>
+            !userRequest.resumeSelected ? (
+              <>
+                <About></About>
+              </>
+            ) : (
+              <Resume></Resume>
+            )
           ) : (
             <Portfolio></Portfolio>
           )
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Footer></Footer>
       </main>
     </div>
   );
