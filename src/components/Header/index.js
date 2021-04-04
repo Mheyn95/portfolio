@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav(props) {
+function Header(props) {
   const {
     contactSelected,
     portfolioSelected,
@@ -83,4 +83,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default Header;

@@ -439,3 +439,103 @@ a {
 .navbar {
   background-color: var(--accent-1-color);
 }
+
+/* media query for small screens that are bigger than tablets */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero {
+    justify-content: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+}
+
+/* media query for tablets */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    text-align: center;
+    height: 200px;
+  }
+
+  .section-header {
+    border-right: none;
+    border-bottom: 5px solid var(--accent-2-color);
+    width: 100%;
+  }
+  .information p {
+    font-size: 20px;
+  }
+
+  .work-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 150%;
+    margin: 15px;
+  }
+
+  .first-project {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+  }
+
+  .second-project {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .image {
+    width: 50%;
+    /* height: 30%; */
+    margin: 15px;
+  }
+
+  .contact-links ul {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-links ul li {
+    font-size: 20px;
+  }
+}
+
+/* the following media queries adjust the image of me to fit better on small screens */
+@media screen and (max-width: 610px) {
+  .image {
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .image {
+    width: 60%;
+    height: 20%;
+  }
+}

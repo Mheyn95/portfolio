@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
@@ -14,7 +14,10 @@ function App() {
   });
   return (
     <div>
-      <Nav userRequest={userRequest} setUserRequest={setUserRequest}></Nav>
+      <Header
+        userRequest={userRequest}
+        setUserRequest={setUserRequest}
+      ></Header>
       <main>
         {!userRequest.contactSelected ? (
           !userRequest.portfolioSelected ? (
