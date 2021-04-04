@@ -74,6 +74,63 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <h2>GitHub Repos:</h2>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/zackaryanderson/dev-hub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            DevHub
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Mheyn95/weather-dashboard"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Weather Dashboard
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Mheyn95/code-quiz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code Quiz
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Mheyn95/password-generator"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Password Generator
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Mheyn95/work-day-scheduler"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Workday Scheduler
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Mheyn95/trivia-game"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Trivia Game
+          </a>
+        </li>
+      </ul>
     </section>
   );
 };

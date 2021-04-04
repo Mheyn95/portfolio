@@ -9,7 +9,7 @@ function Nav(props) {
   } = props;
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 navbar">
       <h2>
         <a data-testid="link" href="/">
           Mitchell Heyn
@@ -17,7 +17,7 @@ function Nav(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className="mx-2">
+          <li className={`mx-2 ${contactSelected && "navActive"}`}>
             <a
               data-testid="about"
               href="#about"

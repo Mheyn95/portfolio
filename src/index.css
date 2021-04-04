@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: var(--accent-2-color);
   color: var(--light);
   font-family: "Poiret One", cursive;
 }
@@ -268,7 +268,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: green;
   border: 0;
   border-radius: 5px;
   color: #fff;
@@ -281,7 +281,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -289,7 +289,7 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--dark);
 }
 
 .image {
@@ -433,5 +433,9 @@ a {
 }
 
 .information ul li a {
-  color: var(--accent-1-color);
+  color: var(--secondary);
+}
+
+.navbar {
+  background-color: var(--accent-1-color);
 }
