@@ -10,7 +10,7 @@ This website is used to showcase the work of Mitchell Heyn and contact Mitchell 
 
 ## Usage
 
-To visit the website simply go to mheyn95.github.io.
+To visit the website simply go to https://mheyn95.github.io/portfolio/.
 
 ## Questions
 
