@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.06645c4a.chunk.css",
-    "main.js": "/static/js/main.cd0dccb4.chunk.js",
-    "main.js.map": "/static/js/main.cd0dccb4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7f3c082b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7f3c082b.js.map",
-    "static/js/2.cdc4b084.chunk.js": "/static/js/2.cdc4b084.chunk.js",
-    "static/js/2.cdc4b084.chunk.js.map": "/static/js/2.cdc4b084.chunk.js.map",
-    "static/js/3.17013aa3.chunk.js": "/static/js/3.17013aa3.chunk.js",
-    "static/js/3.17013aa3.chunk.js.map": "/static/js/3.17013aa3.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.06645c4a.chunk.css.map": "/static/css/main.06645c4a.chunk.css.map",
-    "static/js/2.cdc4b084.chunk.js.LICENSE.txt": "/static/js/2.cdc4b084.chunk.js.LICENSE.txt",
-    "static/media/Me.72ea57af.jpeg": "/static/media/Me.72ea57af.jpeg",
-    "static/media/index.css": "/static/media/work-day.d1c5508e.png"
+    "main.css": "/mheyn95.github.io/static/css/main.6e6ab362.chunk.css",
+    "main.js": "/mheyn95.github.io/static/js/main.1e957683.chunk.js",
+    "main.js.map": "/mheyn95.github.io/static/js/main.1e957683.chunk.js.map",
+    "runtime-main.js": "/mheyn95.github.io/static/js/runtime-main.6132fd00.js",
+    "runtime-main.js.map": "/mheyn95.github.io/static/js/runtime-main.6132fd00.js.map",
+    "static/js/2.cdc4b084.chunk.js": "/mheyn95.github.io/static/js/2.cdc4b084.chunk.js",
+    "static/js/2.cdc4b084.chunk.js.map": "/mheyn95.github.io/static/js/2.cdc4b084.chunk.js.map",
+    "static/js/3.17013aa3.chunk.js": "/mheyn95.github.io/static/js/3.17013aa3.chunk.js",
+    "static/js/3.17013aa3.chunk.js.map": "/mheyn95.github.io/static/js/3.17013aa3.chunk.js.map",
+    "index.html": "/mheyn95.github.io/index.html",
+    "static/css/main.6e6ab362.chunk.css.map": "/mheyn95.github.io/static/css/main.6e6ab362.chunk.css.map",
+    "static/js/2.cdc4b084.chunk.js.LICENSE.txt": "/mheyn95.github.io/static/js/2.cdc4b084.chunk.js.LICENSE.txt",
+    "static/media/Me.72ea57af.jpeg": "/mheyn95.github.io/static/media/Me.72ea57af.jpeg",
+    "static/media/index.css": "/mheyn95.github.io/static/media/work-day.d1c5508e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f3c082b.js",
+    "static/js/runtime-main.6132fd00.js",
     "static/js/2.cdc4b084.chunk.js",
-    "static/css/main.06645c4a.chunk.css",
-    "static/js/main.cd0dccb4.chunk.js"
+    "static/css/main.6e6ab362.chunk.css",
+    "static/js/main.1e957683.chunk.js"
   ]
 }
