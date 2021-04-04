@@ -17,7 +17,7 @@ function Header(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
+          <li className={`mx-2 nav-active`}>
             <a
               data-testid="about"
               href="#about"
