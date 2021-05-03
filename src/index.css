@@ -366,6 +366,14 @@ a {
   color: #000000;
 }
 
+.threadshare {
+  background-image: url(./assets/images/threadshare.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: #000000;
+}
+
 .weather-board {
   background-image: url(./assets/images/weather.png);
   background-size: cover;

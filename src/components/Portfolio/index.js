@@ -8,6 +8,17 @@ const Portfolio = () => {
         <div className="work-grid-container">
           <div className="work-grid-item first-project">
             <a
+              className="threadshare"
+              href="https://threadshare.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              alt="Visit threadshare"
+            >
+              <span className="workSpan">ThreadSHARE</span>
+            </a>
+          </div>
+          <div className="work-grid-item second-project">
+            <a
               className="devhub"
               href="https://devhubhome.herokuapp.com/"
               target="_blank"
@@ -17,7 +28,7 @@ const Portfolio = () => {
               <span className="workSpan">DevHub</span>
             </a>
           </div>
-          <div className="work-grid-item second-project">
+          <div className="work-grid-item">
             <a
               className="weather-board"
               href="https://mheyn95.github.io/weather-dashboard/"
@@ -37,17 +48,6 @@ const Portfolio = () => {
               alt="Visit Code Quiz"
             >
               <span className="workSpan">Code Quiz</span>
-            </a>
-          </div>
-          <div className="work-grid-item">
-            <a
-              className="password-generator"
-              href="https://mheyn95.github.io/password-generator/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Visit a website to create a random password"
-            >
-              <span className="workSpan">Password Generator</span>
             </a>
           </div>
           <div className="work-grid-item">
