@@ -535,9 +535,9 @@ a {
 }
 
 /* the following media queries adjust the image of me to fit better on small screens */
-@media screen and (max-width: 610px) {
+/* @media screen and (max-width: 610px) {
   .image {
-    height: 30%;
+    height: 1000%;
   }
 }
 
@@ -546,4 +546,4 @@ a {
     width: 60%;
     height: 20%;
   }
-}
+} */

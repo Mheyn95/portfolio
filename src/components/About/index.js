@@ -10,13 +10,12 @@ const About = () => {
       </div>
 
       <p>
-        My name is Mitchell Heyn and I am an aspiring full-stack web developer!
-        I am currently going through a coding bootcamp to improve my skills and
-        get into a career in development! I graduated with a degree in Business
-        Information Systems from the University of Utah in 2019, I fell in love
-        with development in my limited experience in coding through the
-        Information Systems program and decided to further my knowledge by going
-        through a bootcamp.
+        My name is Mitchell Heyn and I am a full-stack web developer! I
+        completed a Full-Stack Web Development bootcamp from the University of
+        Utah. I also graduated with a degree in Business Information Systems
+        from the University of Utah in 2019, I fell in love with development in
+        my limited experience in coding through the Information Systems program
+        and decided to further my knowledge by going through a bootcamp.
       </p>
       <p>
         I enjoy spending time with my wife and family. I love anything to do
