@@ -7,29 +7,7 @@ const Portfolio = () => {
       <div className="work-grid-wrapper">
         <div className="work-grid-container">
           <div className="work-grid-item first-project">
-            <a
-              className="threadshare"
-              href="https://threadshare.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Visit threadshare"
-            >
-              <span className="workSpan">ThreadSHARE</span>
-            </a>
-          </div>
-          <div className="work-grid-item second-project">
-            <a
-              className="devhub"
-              href="https://devhubhome.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Visit DevHub"
-            >
-              <span className="workSpan">DevHub</span>
-            </a>
-          </div>
-          <div className="work-grid-item">
-            <a
+          <a
               className="weather-board"
               href="https://mheyn95.github.io/weather-dashboard/"
               target="_blank"
@@ -37,6 +15,17 @@ const Portfolio = () => {
               alt="Visit Weather Dashboard"
             >
               <span className="workSpan">Weather Dashboard</span>
+            </a>
+          </div>
+          <div className="work-grid-item second-project">
+          <a
+              className="work-schedule"
+              href="https://mheyn95.github.io/work-day-scheduler/"
+              target="_blank"
+              rel="noreferrer"
+              alt="Visit a website to schedule your work day"
+            >
+              <span className="workSpan">Workday Scheduler</span>
             </a>
           </div>
           <div className="work-grid-item">
@@ -48,17 +37,6 @@ const Portfolio = () => {
               alt="Visit Code Quiz"
             >
               <span className="workSpan">Code Quiz</span>
-            </a>
-          </div>
-          <div className="work-grid-item">
-            <a
-              className="work-schedule"
-              href="https://mheyn95.github.io/work-day-scheduler/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Visit a website to schedule your work day"
-            >
-              <span className="workSpan">Workday Scheduler</span>
             </a>
           </div>
           <div className="work-grid-item">
@@ -76,15 +54,6 @@ const Portfolio = () => {
       </div>
       <h2>GitHub Repos:</h2>
       <ul>
-        <li>
-          <a
-            href="https://github.com/zackaryanderson/dev-hub"
-            target="_blank"
-            rel="noreferrer"
-          >
-            DevHub
-          </a>
-        </li>
         <li>
           <a
             href="https://github.com/Mheyn95/weather-dashboard"
